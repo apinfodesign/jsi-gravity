@@ -6,9 +6,7 @@ function each( somearray, somefunction ) {
  	 {
 	 		console.log(somearray[i]);	 
  
- 	 somefunction( somearray[i] );
-
- 	 	somearray[i]= somefunction(somearray[i]);
+ 	    somearray[i]= somefunction(somearray[i]);
 
 			 console.log(somearray[i]);
 	 };
